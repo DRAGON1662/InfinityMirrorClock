@@ -1,0 +1,52 @@
+
+
+.neon{
+  font-family: 'Monoton', cursive;
+  font-size:43px;
+  color: #be2edd;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  font-weight: 200;
+  letter-spacing: 8px;
+  text-shadow: 1px 0px 4px #be2edd, 2px 0px 4px #be2edd, 3px 0px 4px #be2edd, 2px 0px 3px #be2edd, 2px 3px 15px #be2edd,
+   2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #be2edd;
+}
+.neon2{
+  font-family: 'Monoton', cursive;
+  font-size:48px;
+  color: #3867d6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  font-weight: 200;
+  letter-spacing: 8px;
+  text-shadow: 1px 0px 4px  #4b7bec, 2px 0px 4px  #4b7bec, 3px 0px 4px  #4b7bec, 2px 0px 3px  #4b7bec, 2px 3px 15px  #4b7bec, 2px 0px 15px #4b7bec, 5px 0px 125px #4b7bec, 20px 0vw 200px  #4b7bec;
+}
+
+.flicker-slow{
+  animation: flicker 12s linear;
+}
+.flicker-slow2{
+  animation: flicker 10s linear;
+}
+.flicker-medium{
+  animation: flicker 8s linear;
+}
+.flicker-fast{
+  animation: flicker 4s linear;
+}
+
+@keyframes flicker {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: .99;
+
+	}
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
+}

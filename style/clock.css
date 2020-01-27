@@ -1,0 +1,172 @@
+.container1{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.seconds{
+  position:absolute;
+  width:20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #be2edd;
+  opacity: 0.1;
+  box-shadow: 0 0 1em 0.13em #e056fd;
+}
+.container2{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.minutes{
+  position:absolute;
+  width:14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #eb3b5a;
+  box-shadow: 0 0 1em 0.13em #fc5c65;
+}
+.container3{
+  margin: -10px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.hours{
+  position:absolute;
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #3867d6;
+  box-shadow: 0 0 1em 0.1em #4b7bec;
+}
+@media screen and (max-width: 1400px){
+  .hours{
+    width:38px;
+    height: 38px;
+  }
+  .container3{
+    margin: -5px 0 0 -1px;
+  }
+  .minutes{
+    width:15px;
+    height: 15px;
+  }
+  .seconds{
+    width:24px;
+    height: 24px;
+  }
+
+}
+@media screen and (min-width: 1400px){
+  .hours{
+    width:44px;
+    height: 44px;
+  }
+  .container3{
+    margin: -6px 0 0 1px;
+  }
+  .minutes{
+    width:19px;
+    height: 19px;
+  }
+  .seconds{
+    width:29px;
+    height: 29px;
+  }
+
+}
+@media screen and (max-width: 1400px){
+  .hours{
+    width:40px;
+    height: 38px;
+  }
+  .container3{
+    margin: -6px 0 0 1px;
+  }
+  .minutes{
+    width:17px;
+    height: 17px;
+  }
+  .seconds{
+    width:26px;
+    height: 26px;
+  }
+
+}
+@media screen and (max-width: 1200px){
+  .hours{
+    width:38px;
+    height: 38px;
+  }
+  .container3{
+    margin: -6px 0 0 1px;
+  }
+  .minutes{
+    width:15px;
+    height: 15px;
+  }
+  .seconds{
+    width:24px;
+    height: 24px;
+  }
+
+}
+@media screen and (max-width: 560px){
+  .hours{
+    width:22px;
+    height: 22px;
+  }
+  .container3{
+    margin: -5px 0 0 -1px;
+  }
+  .minutes{
+    width:11px;
+    height: 11px;
+  }
+  .seconds{
+    width:14px;
+    height: 14px;
+  }
+
+}
+@media screen and (max-width: 440px){
+  .hours{
+    width:20px;
+    height: 20px;
+  }
+  .container3{
+    margin: -5px 0 0 -1px;
+  }
+  .minutes{
+    width:10px;
+    height: 10px;
+  }
+  .seconds{
+    width:13px;
+    height: 13px;
+  }
+
+}
+
+@media screen and (max-width: 350px){
+  .hours{
+    width:18px;
+    height: 18px;
+  }
+  .container3{
+    margin: -5px 0 0 -1px;
+  }
+  .minutes{
+    width:8px;
+    height: 8px;
+    box-shadow: 0 0 1em 0.003em #fc5c65;
+  }
+  .seconds{
+    width:11px;
+    height: 11px;
+    box-shadow: 0 0 1em 0.003em #e056fd;
+  }
+
+}
